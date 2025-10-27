@@ -5,7 +5,8 @@ import dotenv from "dotenv";
 import path from "path";
 import { fileURLToPath } from "url";
 import OpenAI from "openai";
-import festivalRouter from "./api/festival.js"; // ✅ Festival route
+import festivalRouter from "./server/api/festival.js";
+ // ✅ Festival route
 
 dotenv.config();
 
